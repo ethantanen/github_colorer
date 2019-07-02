@@ -12,4 +12,4 @@ def draw (n):
     f.close()
 
 
-draw(1)
+draw(10)
