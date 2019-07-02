@@ -4,8 +4,8 @@ image = []
 
 def draw (n):
     f = open('file.txt', 'w')
-    for _ in range(n) :
-        f.write('.')
+    for i in range(n) :
+        f.write(str(i))
         os.system('git add .')
         os.system('git commit -m "eh"')
         os.system('git push origin master')
