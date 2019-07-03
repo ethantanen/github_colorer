@@ -23,7 +23,7 @@ def draw ():
     global day
 
     if image[week][day] is 1:
-        for i in range(10) :
+        for i in range(1) :
             f = open('file.txt', 'a')
             f.write('\n' + str(i))
             os.system('git add .')
