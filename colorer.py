@@ -33,7 +33,7 @@ def draw ():
 
     week = week + 1
     day += 1
-    day = day % y
+    day = day % 7
 
     print(week, day)
 
