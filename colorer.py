@@ -23,7 +23,8 @@ def draw ():
     global week
     global day
 
-    print ('t', week, day)
+    print('week: ', week, 'day: ', day, 'val: ', image[week][day])
+    
     if image[week][day] is 1:
         for i in range(1) :
             f = open('file.txt', 'a')
@@ -33,12 +34,12 @@ def draw ():
             os.system('git push origin master')
             f.close()
 
+
     if day == 6:
         week += 1
     day += 1
     day = day % 7
 
-    print(week, day)
 
 
 week = 0
