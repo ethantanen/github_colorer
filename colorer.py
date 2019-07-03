@@ -31,7 +31,8 @@ def draw ():
             os.system('git push origin master')
             f.close()
 
-    week = week + 1
+    if day == 7:
+        week += 1
     day += 1
     day = day % 7
 
