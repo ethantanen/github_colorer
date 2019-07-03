@@ -19,9 +19,11 @@ image = [[1,1,1,1,1,1,1],
 # push a bunch to github on 1 days
 def draw ():
 
+
     global week
     global day
 
+    print ('t', week, day)
     if image[week][day] is 1:
         for i in range(1) :
             f = open('file.txt', 'a')
